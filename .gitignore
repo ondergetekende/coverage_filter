@@ -2,3 +2,6 @@ dist
 *.egg-info
 .venv
 .vscode
+__pycache__
+.coverage
+example/cover

@@ -1,9 +1,4 @@
 #!/usr/bin/python3
-"""A setuptools based setup module.
-See:
-https://packaging.python.org/en/latest/distributing.html
-https://github.com/pypa/sampleproject
-"""
 
 from os import path
 
@@ -30,7 +25,6 @@ setup(
     author='Koert van der Veer',
     author_email='py@ondergetekende.nl',
 
-    # Choose your license
     license='MIT',
 
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -50,5 +44,5 @@ setup(
 
     keywords='unit test coverage',
 
-    py_modules=["coverage_filter"],
+    py_modules=["coverage_filter"]
 )
